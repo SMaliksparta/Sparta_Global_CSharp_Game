@@ -75,6 +75,7 @@
             this.pictureBox5.TabIndex = 6;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "platform";
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // Form1
             // 

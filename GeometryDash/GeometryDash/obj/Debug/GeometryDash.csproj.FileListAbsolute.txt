@@ -8,3 +8,13 @@ C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Geo
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\obj\Debug\GeometryDash.csproj.CoreCompileInputs.cache
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\obj\Debug\GeometryDash.exe
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\obj\Debug\GeometryDash.pdb
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\bin\Debug\GeometryDash.exe.config
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\bin\Debug\GeometryDash.exe
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\bin\Debug\GeometryDash.pdb
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.csprojAssemblyReference.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.Form1.resources
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.Properties.Resources.resources
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.csproj.GenerateResource.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.csproj.CoreCompileInputs.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.exe
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\Sparta_Global_CSharp_Game\GeometryDash\GeometryDash\obj\Debug\GeometryDash.pdb

@@ -12,6 +12,7 @@ namespace GeometryDash
 {
     public partial class Form1 : Form
     {
+
         bool jump = false;
 
         int Gravity = 10;
@@ -41,7 +42,7 @@ namespace GeometryDash
             }
             if (jump)
             {
-                Gravity = -10;
+                Gravity = -12;
                 jumpforce = 10;
             }
             else
@@ -61,16 +62,15 @@ namespace GeometryDash
                     }
         }
 
+        //Controls
+
         private void GoDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space && !jump)
             {
                 jump = true;
             }
-            
-            
         } 
-
 
         private void GoUp(object sender, KeyEventArgs e)
         {
@@ -81,6 +81,11 @@ namespace GeometryDash
         }
 
         private void Platform_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
