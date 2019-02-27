@@ -1,0 +1,15 @@
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\bin\Debug\Level1.exe.config
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\bin\Debug\Level1.exe
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\bin\Debug\Level1.pdb
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.csprojAssemblyReference.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\lvl1.g.cs
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\App.g.cs
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1_MarkupCompile.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1_MarkupCompile.lref
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\lvl1.baml
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.g.resources
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.Properties.Resources.resources
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.csproj.GenerateResource.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.csproj.CoreCompileInputs.cache
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.exe
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\GeometryDash\Level1\obj\Debug\Level1.pdb
