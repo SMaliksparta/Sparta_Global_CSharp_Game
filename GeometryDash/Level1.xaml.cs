@@ -100,7 +100,9 @@ namespace GeometryDash
             Rect plat13 = new Rect(Canvas.GetLeft(ob13), Canvas.GetTop(ob13), ob13.Width, ob13.Height);
             Rect plat14 = new Rect(Canvas.GetLeft(ob14), Canvas.GetTop(ob14), ob14.Width, ob14.Height);
 
-
+            //Goal
+            
+            Rect goal = new Rect(Canvas.GetLeft(Goal), Canvas.GetTop(Goal), Goal.Width, Goal.Height);
 
             // Game over 
             if (rect1.IntersectsWith(Player1))
@@ -150,92 +152,132 @@ namespace GeometryDash
             if (plat1.IntersectsWith(Player1))
 
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat2.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat3.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
-            if (rect4.IntersectsWith(Player1))
+            if (plat4.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat5.IntersectsWith(Player1))
 
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat6.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat7.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat8.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat9.IntersectsWith(Player1))
 
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat10.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat11.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat12.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat13.IntersectsWith(Player1))
 
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
             if (plat14.IntersectsWith(Player1))
             {
-                // The two elements overlap
                 MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
             }
-            
+
+            //Goal
+
+            if (goal.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("YOU WIN");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+
         }
     }
 }

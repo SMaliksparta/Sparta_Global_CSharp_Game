@@ -10,7 +10,14 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
+using System.Windows.Threading;
+using Microsoft.Win32;
+using System.IO;
+using MessageBox = System.Windows.MessageBox;
+
 
 namespace GeometryDash
 {
@@ -19,8 +26,8 @@ namespace GeometryDash
     /// </summary>
     public partial class Level2 : Window
     {
-        double x = 62;
-        double y = 620;
+        double x = 46;
+        double y = 683;
         DispatcherTimer timer = new DispatcherTimer();
 
         public Level2()
@@ -93,6 +100,39 @@ namespace GeometryDash
             Rect plat12 = new Rect(Canvas.GetLeft(ob12), Canvas.GetTop(ob12), ob12.Width, ob12.Height);
             Rect plat13 = new Rect(Canvas.GetLeft(ob13), Canvas.GetTop(ob13), ob13.Width, ob13.Height);
             Rect plat14 = new Rect(Canvas.GetLeft(ob14), Canvas.GetTop(ob14), ob14.Width, ob14.Height);
+            Rect plat15 = new Rect(Canvas.GetLeft(ob15), Canvas.GetTop(ob15), ob15.Width, ob15.Height);
+            Rect plat16 = new Rect(Canvas.GetLeft(ob16), Canvas.GetTop(ob16), ob16.Width, ob16.Height);
+            Rect plat17 = new Rect(Canvas.GetLeft(ob17), Canvas.GetTop(ob17), ob17.Width, ob17.Height);
+            Rect plat18 = new Rect(Canvas.GetLeft(ob18), Canvas.GetTop(ob18), ob18.Width, ob18.Height);
+            Rect plat19 = new Rect(Canvas.GetLeft(ob19), Canvas.GetTop(ob19), ob19.Width, ob19.Height);
+            Rect plat20 = new Rect(Canvas.GetLeft(ob20), Canvas.GetTop(ob20), ob20.Width, ob20.Height);
+            Rect plat21 = new Rect(Canvas.GetLeft(ob21), Canvas.GetTop(ob21), ob21.Width, ob21.Height);
+            Rect plat22 = new Rect(Canvas.GetLeft(ob22), Canvas.GetTop(ob22), ob22.Width, ob22.Height);
+            Rect plat23 = new Rect(Canvas.GetLeft(ob23), Canvas.GetTop(ob23), ob23.Width, ob23.Height);
+            Rect plat24 = new Rect(Canvas.GetLeft(ob24), Canvas.GetTop(ob24), ob24.Width, ob24.Height);
+            Rect plat25 = new Rect(Canvas.GetLeft(ob25), Canvas.GetTop(ob25), ob25.Width, ob25.Height);
+            Rect plat26 = new Rect(Canvas.GetLeft(ob26), Canvas.GetTop(ob26), ob26.Width, ob26.Height);
+            Rect plat27 = new Rect(Canvas.GetLeft(ob27), Canvas.GetTop(ob27), ob27.Width, ob27.Height);
+            Rect plat28 = new Rect(Canvas.GetLeft(ob28), Canvas.GetTop(ob28), ob28.Width, ob28.Height);
+            Rect plat29 = new Rect(Canvas.GetLeft(ob29), Canvas.GetTop(ob29), ob29.Width, ob29.Height);
+            Rect plat30 = new Rect(Canvas.GetLeft(ob30), Canvas.GetTop(ob30), ob30.Width, ob30.Height);
+            Rect plat31 = new Rect(Canvas.GetLeft(ob31), Canvas.GetTop(ob31), ob31.Width, ob31.Height);
+            Rect plat32 = new Rect(Canvas.GetLeft(ob32), Canvas.GetTop(ob32), ob32.Width, ob32.Height);
+            Rect plat33 = new Rect(Canvas.GetLeft(ob33), Canvas.GetTop(ob33), ob33.Width, ob33.Height);
+            Rect plat34 = new Rect(Canvas.GetLeft(ob34), Canvas.GetTop(ob34), ob34.Width, ob34.Height);
+            Rect plat35 = new Rect(Canvas.GetLeft(ob35), Canvas.GetTop(ob35), ob35.Width, ob35.Height);
+            Rect plat36 = new Rect(Canvas.GetLeft(ob36), Canvas.GetTop(ob36), ob36.Width, ob36.Height);
+            Rect plat37 = new Rect(Canvas.GetLeft(ob37), Canvas.GetTop(ob37), ob37.Width, ob37.Height);
+            Rect plat38 = new Rect(Canvas.GetLeft(ob38), Canvas.GetTop(ob38), ob38.Width, ob38.Height);
+            Rect plat39 = new Rect(Canvas.GetLeft(ob39), Canvas.GetTop(ob39), ob39.Width, ob39.Height);
+            Rect plat40 = new Rect(Canvas.GetLeft(ob40), Canvas.GetTop(ob40), ob40.Width, ob40.Height);
+            Rect plat41 = new Rect(Canvas.GetLeft(ob41), Canvas.GetTop(ob41), ob41.Width, ob41.Height);
+            Rect plat42 = new Rect(Canvas.GetLeft(ob42), Canvas.GetTop(ob42), ob42.Width, ob42.Height);
+            Rect plat43 = new Rect(Canvas.GetLeft(ob43), Canvas.GetTop(ob43), ob43.Width, ob43.Height);
+            Rect plat44 = new Rect(Canvas.GetLeft(ob44), Canvas.GetTop(ob44), ob44.Width, ob44.Height);
+            Rect plat45 = new Rect(Canvas.GetLeft(ob45), Canvas.GetTop(ob45), ob45.Width, ob45.Height);
+            Rect plat46 = new Rect(Canvas.GetLeft(ob46), Canvas.GetTop(ob46), ob46.Width, ob46.Height);
+
 
 
 
@@ -140,5 +180,388 @@ namespace GeometryDash
             }
 
             //Platfrom hits
+
+            if (plat1.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat2.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat3.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat4.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat5.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat6.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat7.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat8.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat9.IntersectsWith(Player1))
+
+            {
+                // The two elements overlap
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                Close();
+            }
+            if (plat10.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat11.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat12.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat13.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat14.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat15.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat16.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat17.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat18.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat19.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat20.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat21.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat22.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat23.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat24.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat25.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat26.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat27.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat28.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat29.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat30.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat31.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat32.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat33.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat34.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat35.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat36.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat37.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat38.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat39.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat40.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat41.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat42.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat43.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat44.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat45.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+            if (plat46.IntersectsWith(Player1))
+            {
+                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
+
         }
+    }
     }

@@ -52,6 +52,19 @@ namespace GeometryDash
             this.Close();
 
         }
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            Level2 map2 = new Level2();
+            map2.Show();
+            this.Close();
+        }
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+           // Level3 map3 = new Level3();
+           // map3.Show();
+           // this.Close();
+        }
+
 
         //Controls
         private void MovePlayer(object sender, EventArgs e)
@@ -95,7 +108,7 @@ namespace GeometryDash
             
         }
 
-       
+        
     }
 }
 

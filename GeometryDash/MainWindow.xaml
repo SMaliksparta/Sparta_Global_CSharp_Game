@@ -8,13 +8,13 @@
         Title="MainWindow" Height="800" Width="1000">
     <Canvas Width="1000" Margin="0,0,-6.4,-2.6">
         <Rectangle x:Name="Player" Fill="#FFF4F4F5" Height="22" Canvas.Left="133" Stroke="Black" Canvas.Top="478" Width="24" Tag="Player"/>
-        <Rectangle x:Name="LeftBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
-        <Rectangle x:Name="RightBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
-        <Rectangle x:Name="BottomBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
-        <Rectangle x:Name="TopBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
+        <Rectangle x:Name="LeftBar" Fill="#FF434343" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
+        <Rectangle x:Name="RightBar" Fill="#FF434343" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
+        <Rectangle x:Name="BottomBar" Fill="#FF434343" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
+        <Rectangle x:Name="TopBar" Fill="#FF434343" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
         <Button Content="Easy" Height="62" Canvas.Left="394" Canvas.Top="288" Width="182" Click="Button_Click"/>
-        <Button Content="Medium" Height="62" Canvas.Left="394" Canvas.Top="401" Width="182" Click="Button_Click"/>
-        <Button Content="Hard" Height="62" Canvas.Left="394" Canvas.Top="511" Width="182" Click="Button_Click"/>
+        <Button Content="Medium" Height="62" Canvas.Left="394" Canvas.Top="401" Width="182" Click="Button_Click2"/>
+        <Button Content="Hard" Height="62" Canvas.Left="394" Canvas.Top="511" Width="182" Click="Button_Click3"/>
 
     </Canvas>
 </Window>

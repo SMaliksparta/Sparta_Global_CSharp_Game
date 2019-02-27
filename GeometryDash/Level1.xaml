@@ -7,12 +7,13 @@
         mc:Ignorable="d"
         Title="level1" Height="800" Width="1000">
     <Canvas Width="1000" Margin="0,0,-6.4,-2.6">
-        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Height="22" Canvas.Left="62" Stroke="Black" Canvas.Top="620" Width="24" Tag="Player"/>
-        <Rectangle x:Name="level1LeftBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
-        <Rectangle x:Name="level1RightBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
-        <Rectangle x:Name="level1BottomBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
-        <Rectangle x:Name="level1TopBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
-        <Rectangle x:Name="ob1" Fill="#FFF4F4F5" Height="25" Canvas.Left="169" Stroke="Black" Canvas.Top="654" Width="266" Tag="ob1"/>
+        <Rectangle x:Name="ob13" Fill="#FFF4F4F5" Height="25" Canvas.Left="892" Stroke="Black" Canvas.Top="318" Width="106" Tag="ob13"/>
+        <Rectangle x:Name="Start" Fill="#FF5E5EE4" Height="49" Canvas.Left="26" Stroke="Black" Canvas.Top="593" Width="134" Tag="start"/>
+        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Height="22" Canvas.Left="81" Stroke="Black" Canvas.Top="609" Width="24" Tag="Player"/>
+        <Rectangle x:Name="level1LeftBar" Fill="#FF434343" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
+        <Rectangle x:Name="level1RightBar" Fill="#FF434343" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
+        <Rectangle x:Name="level1BottomBar" Fill="#FF434343" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
+        <Rectangle x:Name="level1TopBar" Fill="#FF434343" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
         <Rectangle x:Name="ob2" Fill="#FFF4F4F5" Height="107" Canvas.Left="298" Stroke="Black" Canvas.Top="572" Width="25" Tag="ob2"/>
         <Rectangle x:Name="ob3" Fill="#FFF4F4F5" Height="25"  Canvas.Left="23" Stroke="Black" Canvas.Top="570" Width="300"  Tag="ob3"/>
         <Rectangle x:Name="ob4" Fill="#FFF4F4F5" Height="190" Canvas.Left="450" Stroke="Black" Canvas.Top="375" Width="25" Tag="ob4"/>
@@ -22,11 +23,12 @@
         <Rectangle x:Name="ob9" Fill="#FFF4F4F5" Height="241" Canvas.Left="410" Stroke="Black"  Canvas.Top="23" Width="25" Tag="ob9"/>
         <Rectangle x:Name="ob8" Fill="#FFF4F4F5" Height="25" Canvas.Left="287"  Stroke="Black"  Canvas.Top="239" Width="148" Tag="ob8"/>
         <Rectangle x:Name="ob10" Fill="#FFF4F4F5" Height="608" Canvas.Left="600" Stroke="Black" Canvas.Top="139" Width="25" Tag="ob10"/>
-        <Rectangle x:Name="ob11" Fill="#FFF4F4F5" Height="619" Canvas.Left="769" Stroke="Black" Canvas.Top="23" Width="25" Tag="ob11"/>
         <Rectangle x:Name="ob14" Fill="#FFF4F4F5" Height="25" Canvas.Left="769" Stroke="Black" Canvas.Top="127" Width="121" Tag="ob14"/>
-        <Rectangle x:Name="ob13" Fill="#FFF4F4F5" Height="25" Canvas.Left="894" Stroke="Black" Canvas.Top="318" Width="106" Tag="ob13"/>
         <Rectangle x:Name="ob12" Fill="#FFF4F4F5" Height="25" Canvas.Left="769" Stroke="Black" Canvas.Top="479" Width="121" Tag="ob12"/>
-        
+        <Rectangle x:Name="Goal" Fill="#FF8FFF5C" Height="24" Canvas.Left="794" Stroke="Black" Canvas.Top="25" Width="179" Tag="goal"/>
+        <Rectangle x:Name="ob11" Fill="#FFF4F4F5" Height="619" Canvas.Left="769" Stroke="Black" Canvas.Top="23" Width="25" Tag="ob11"/>
+        <Rectangle x:Name="ob1" Fill="#FFF4F4F5" Height="25" Canvas.Left="169" Stroke="Black" Canvas.Top="654" Width="266" Tag="ob1"/>
+
 
     </Canvas>
 </Window>
