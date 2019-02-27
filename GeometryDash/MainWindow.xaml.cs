@@ -92,31 +92,7 @@ namespace GeometryDash
 
             Rect rect4 = new Rect(Canvas.GetLeft(RightBar), Canvas.GetTop(RightBar), RightBar.Width, RightBar.Height);
 
-            if (rect1.IntersectsWith(Player1))
-
-            {
-                // The two elements overlap
-                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
-            }
-            if (rect2.IntersectsWith(Player1))
-            {
-                // The two elements overlap
-                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
-            }
-            if (rect3.IntersectsWith(Player1))
-            {
-                // The two elements overlap
-                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
-            }
-            if (rect4.IntersectsWith(Player1))
-            {
-                // The two elements overlap
-                MessageBoxResult mbr = MessageBox.Show("GAME OVER");
-                Close();
-            }
+            
         }
 
        

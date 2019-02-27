@@ -5,13 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GeometryDash"
         mc:Ignorable="d"
-        Title="Level2" Height="800.224" Width="1000">
-    <Grid>
-        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Stroke="Black" Tag="Player" Margin="133,479,836.6,269.4"/>
-        <Rectangle x:Name="LeftBar" Fill="#FFF4F4F5" Stroke="Black" Tag="LeftBar" Margin="0,0,968.6,-2.6"/>
-        <Rectangle x:Name="RightBar" Fill="#FFF4F4F5" Stroke="Black" Tag="RightBar" Margin="973,0,-4.4,-2.6"/>
-        <Rectangle x:Name="BottomBar" Fill="#FFF4F4F5" Stroke="Black" Tag="BottomBar" Margin="0,747,-6.4,-1.6"/>
-        <Rectangle x:Name="TopBar" Fill="#FFF4F4F5" Stroke="Black" Tag="TopBar" Margin="0,0,-6.4,745.4"/>
+        Title="Level2" Height="800" Width="1000">
+    <Canvas Width="1000" Margin="0,0,-6.4,-2.6">
+        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Height="22" Canvas.Left="46" Stroke="Black" Canvas.Top="683" Width="24" Tag="Player" RenderTransformOrigin="-0.05,-0.782"/>
+        <Rectangle x:Name="level1LeftBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
+        <Rectangle x:Name="level1RightBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
+        <Rectangle x:Name="level1BottomBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
+        <Rectangle x:Name="level1TopBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="612" Width="98" Canvas.Left="25"/>
+        <Rectangle Fill="#FFF4F4F5" Height="91" Canvas.Left="103" Stroke="Black" Canvas.Top="612" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="523" Width="159" Canvas.Left="156"/>
+        <Rectangle Fill="#FFF4F4F5" Height="180" Canvas.Left="212" Stroke="Black" Canvas.Top="523" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="683" Width="102" Canvas.Left="213"/>
+        <Rectangle Fill="#FFF4F4F5" Height="339" Canvas.Left="314" Stroke="Black" Canvas.Top="263" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="457" Width="98" Canvas.Left="25"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="372" Width="291" Canvas.Left="123"/>
+        <Rectangle Fill="#FFF4F4F5" Height="129" Canvas.Left="103" Stroke="Black" Canvas.Top="263" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="191" Width="98" Canvas.Left="25"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="123" Width="249" Canvas.Left="123"/>
+        <Rectangle Fill="#FFF4F4F5" Height="65" Canvas.Left="103" Stroke="Black" Canvas.Top="78" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="68" Width="109" Canvas.Left="103"/>
+        <Rectangle Fill="#FFF4F4F5" Height="65" Canvas.Left="352" Stroke="Black" Canvas.Top="78" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="202" Canvas.Left="212" Stroke="Black" Canvas.Top="123" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="191" Width="259" Canvas.Left="212"/>
+        <Rectangle Fill="#FFF4F4F5" Height="246" Canvas.Left="451" Stroke="Black" Canvas.Top="79" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="78" Width="95" Canvas.Left="451"/>
+        <Rectangle Fill="#FFF4F4F5" Height="65" Canvas.Left="628" Stroke="Black" Canvas.Top="23" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="78" Width="253" Canvas.Left="628"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="243" Width="270" Canvas.Left="628"/>
+        <Rectangle Fill="#FFF4F4F5" Height="90" Canvas.Left="628" Stroke="Black" Canvas.Top="173" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="160" Width="75" Canvas.Left="899"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="166" Width="84" Canvas.Left="564"/>
+        <Rectangle Fill="#FFF4F4F5" Height="284" Canvas.Left="795" Stroke="Black" Canvas.Top="173" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="72" Canvas.Left="716" Stroke="Black" Canvas.Top="98" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="307" Width="285" Canvas.Left="451"/>
+        <Rectangle Fill="#FFF4F4F5" Height="213" Canvas.Left="508" Stroke="Black" Canvas.Top="263" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="456" Width="134" Canvas.Left="394"/>
+        <Rectangle Fill="#FFF4F4F5" Height="86" Canvas.Left="394" Stroke="Black" Canvas.Top="457" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="523" Width="504" Canvas.Left="394"/>
+        <Rectangle Fill="#FFF4F4F5" Height="152" Canvas.Left="716" Stroke="Black" Canvas.Top="307" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="602" Width="397" Canvas.Left="314"/>
+        <Rectangle Fill="#FFF4F4F5" Height="62" Canvas.Left="526" Stroke="Black" Canvas.Top="685" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="683" Width="102" Canvas.Left="525"/>
+        <Rectangle Fill="#FFF4F4F5" Height="62" Canvas.Left="421" Stroke="Black" Canvas.Top="685" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="152" Canvas.Left="628" Stroke="Black" Canvas.Top="307" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="305" Width="94" Canvas.Left="879"/>
+        <Rectangle Fill="#FFF4F4F5" Height="90" Canvas.Left="879" Stroke="Black" Canvas.Top="305" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="375" Width="49" Canvas.Left="880"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="437" Width="179" Canvas.Left="795"/>
+        <Rectangle Fill="#FFF4F4F5" Height="152" Canvas.Left="880" Stroke="Black" Canvas.Top="595" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="83" Canvas.Left="607" Stroke="Black" Canvas.Top="601" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="135" Canvas.Left="795" Stroke="Black" Canvas.Top="543" Width="20"/>
+        <Rectangle Fill="#FFF4F4F5" Height="20" Stroke="Black" Canvas.Top="664" Width="102" Canvas.Left="713"/>
+        <Rectangle Fill="#FFF4F4F5" Height="83" Canvas.Left="713" Stroke="Black" Canvas.Top="664" Width="20"/>
 
-    </Grid>
+    </Canvas>
 </Window>

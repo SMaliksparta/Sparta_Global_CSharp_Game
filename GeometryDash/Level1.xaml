@@ -5,93 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GeometryDash"
         mc:Ignorable="d"
-        Title="Level1" Height="800.224" Width="1000">
-    <Grid x:Name="ob15" Width="1000" Height="772.8" Tag="ob">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Stroke="Black" Tag="Player" Margin="69,623,907,127.8"/>
-        <Rectangle x:Name="LeftBar" Fill="#FFF4F4F5" Stroke="Black" Tag="LeftBar" Margin="0,0,975,-0.2"/>
-        <Rectangle x:Name="RightBar" Fill="#FFF4F4F5" Stroke="Black" Tag="RightBar" Margin="973,0,2,-0.2"/>
-        <Rectangle x:Name="BottomBar" Fill="#FFF4F4F5" Stroke="Black" Tag="BottomBar" Margin="0,747,0,0.8"/>
-        <Rectangle x:Name="TopBar" Fill="#FFF4F4F5" Stroke="Black" Tag="TopBar" Margin="0,0,0,747.8"/>
-        <Rectangle x:Name="ob3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="0,564,0,0" Stroke="Black" VerticalAlignment="Top" Width="322" Tag="ob"/>
-        <Rectangle x:Name="ob1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="92" Margin="298,564,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="169,654,0,0" Stroke="Black" VerticalAlignment="Top" Width="266" Tag="ob"/>
-        <Rectangle x:Name="ob9" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="643" Margin="598,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="161,371,0,0" Stroke="Black" VerticalAlignment="Top" Width="461" Tag="ob"/>
-        <Rectangle x:Name="ob10" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="169" Margin="419,371,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="270" Margin="137,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="258" Margin="409,3,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="26" Margin="287,238,0,0" Stroke="Black" VerticalAlignment="Top" Width="148" Tag="ob"/>
-        <Rectangle x:Name="ob7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="133" Margin="266,132,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob11" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="644" Margin="769,-1,0,0" Stroke="Black" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.5,0.5" Tag="ob">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="ob16" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="769,620,0,0" Stroke="Black" VerticalAlignment="Top" Width="107" Tag="ob"/>
-        <Rectangle x:Name="ob14" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="891,412,0,0" Stroke="Black" VerticalAlignment="Top" Width="107" Tag="ob"/>
-        <Rectangle x:Name="ob12" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="769,238,0,0" Stroke="Black" VerticalAlignment="Top" Width="107" Tag="ob"/>
+        Title="level1" Height="800" Width="1000">
+    <Canvas Width="1000" Margin="0,0,-6.4,-2.6">
+        <Rectangle x:Name="Player" Fill="#FFF4F4F5" Height="22" Canvas.Left="62" Stroke="Black" Canvas.Top="620" Width="24" Tag="Player"/>
+        <Rectangle x:Name="level1LeftBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="25" Tag="LeftBar"/>
+        <Rectangle x:Name="level1RightBar" Fill="#FFF4F4F5" Height="773" Canvas.Left="973" Stroke="Black" Canvas.Top="0" Width="25" Tag="RightBar"/>
+        <Rectangle x:Name="level1BottomBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="747" Width="1000" Tag="BottomBar"/>
+        <Rectangle x:Name="level1TopBar" Fill="#FFF4F4F5" Height="25" Canvas.Left="0" Stroke="Black" Canvas.Top="0" Width="1000" Tag="TopBar"/>
+        <Rectangle x:Name="ob1" Fill="#FFF4F4F5" Height="25" Canvas.Left="169" Stroke="Black" Canvas.Top="654" Width="266" Tag="ob1"/>
+        <Rectangle x:Name="ob2" Fill="#FFF4F4F5" Height="107" Canvas.Left="298" Stroke="Black" Canvas.Top="572" Width="25" Tag="ob2"/>
+        <Rectangle x:Name="ob3" Fill="#FFF4F4F5" Height="25"  Canvas.Left="23" Stroke="Black" Canvas.Top="570" Width="300"  Tag="ob3"/>
+        <Rectangle x:Name="ob4" Fill="#FFF4F4F5" Height="190" Canvas.Left="450" Stroke="Black" Canvas.Top="375" Width="25" Tag="ob4"/>
+        <Rectangle x:Name="ob5" Fill="#FFF4F4F5" Height="25"  Canvas.Left="135" Stroke="Black" Canvas.Top="373" Width="466"  Tag="ob5"/>
+        <Rectangle x:Name="ob6" Fill="#FFF4F4F5" Height="258" Canvas.Left="135" Stroke="Black" Canvas.Top="139" Width="25" Tag="ob6"/>
+        <Rectangle x:Name="ob7" Fill="#FFF4F4F5" Height="125" Canvas.Left="287" Stroke="Black" Canvas.Top="139" Width="25" Tag="ob7"/>
+        <Rectangle x:Name="ob9" Fill="#FFF4F4F5" Height="241" Canvas.Left="410" Stroke="Black"  Canvas.Top="23" Width="25" Tag="ob9"/>
+        <Rectangle x:Name="ob8" Fill="#FFF4F4F5" Height="25" Canvas.Left="287"  Stroke="Black"  Canvas.Top="239" Width="148" Tag="ob8"/>
+        <Rectangle x:Name="ob10" Fill="#FFF4F4F5" Height="608" Canvas.Left="600" Stroke="Black" Canvas.Top="139" Width="25" Tag="ob10"/>
+        <Rectangle x:Name="ob11" Fill="#FFF4F4F5" Height="619" Canvas.Left="769" Stroke="Black" Canvas.Top="23" Width="25" Tag="ob11"/>
+        <Rectangle x:Name="ob14" Fill="#FFF4F4F5" Height="25" Canvas.Left="769" Stroke="Black" Canvas.Top="127" Width="121" Tag="ob14"/>
+        <Rectangle x:Name="ob13" Fill="#FFF4F4F5" Height="25" Canvas.Left="894" Stroke="Black" Canvas.Top="318" Width="106" Tag="ob13"/>
+        <Rectangle x:Name="ob12" Fill="#FFF4F4F5" Height="25" Canvas.Left="769" Stroke="Black" Canvas.Top="479" Width="121" Tag="ob12"/>
+        
 
-    </Grid>
+    </Canvas>
 </Window>
