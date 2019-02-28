@@ -136,7 +136,7 @@ namespace GeometryDash
 
 
 
-            // Game over 
+            // Border Game over 
             if (rect1.IntersectsWith(Player1))
 
             {
@@ -562,6 +562,23 @@ namespace GeometryDash
                 this.Close();
             }
 
-        }
+
+
+            
+
+            //Goal
+
+            Rect goal = new Rect(Canvas.GetLeft(Goal), Canvas.GetTop(Goal), Goal.Width, Goal.Height);
+
+            if (goal.IntersectsWith(Player1))
+
+            {
+                MessageBoxResult mbr = MessageBox.Show("YOU WIN");
+                MainWindow menu = new MainWindow();
+                menu.Show();
+                timer.Stop();
+                this.Close();
+            }
     }
+}
     }

@@ -40,3 +40,5 @@ C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Spa
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Sparta_Global_CSharp_Game\GeometryDash\obj\Debug\GeometryDash.csproj.CoreCompileInputs.cache
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Sparta_Global_CSharp_Game\GeometryDash\obj\Debug\GeometryDash.exe
 C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Sparta_Global_CSharp_Game\GeometryDash\obj\Debug\GeometryDash.pdb
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Sparta_Global_CSharp_Game\GeometryDash\obj\Debug\SecretLevel.g.cs
+C:\Users\tech-w78a.LAPTOP-T9HE3QOO\Engineering26\week7\Gameweek\GeometryDash\Sparta_Global_CSharp_Game\GeometryDash\obj\Debug\SecretLevel.baml
